@@ -1,4 +1,4 @@
-require('dotenv').config();  // S'assurer que c'est la première ligne pour charger les variables d'environnement
+require('dotenv').config();  // S'assurer du changement des variables d'environnements dans la premiere ligne
 const express = require('express');
 const cors = require('cors');
 const { connectdb } = require('./services/mongoose');
