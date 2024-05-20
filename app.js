@@ -1,4 +1,4 @@
-require('dotenv').config();  // S'assurer du changement des variables 
+require('dotenv').config();  // S'assurer du changement des variables ok 
 const express = require('express');
 const cors = require('cors');
 const { connectdb } = require('./services/mongoose');
